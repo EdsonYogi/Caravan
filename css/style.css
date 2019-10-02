@@ -1,3 +1,15 @@
 body {
   padding-top: 75px;
 }
+
+#blockquote-home {
+  background-image: url("/img/bg-quote.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  #blockquote-home .display-4 {
+    font-size: 1.5em;
+  }
+}
